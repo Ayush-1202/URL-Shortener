@@ -10,7 +10,7 @@ function UrlList({ urls }) {
   return (
     <div className="url-list">
       {uniqueUrls.map((urlObj) => (
-        <div key={urlObj.short_url} className="url-box">
+        <div key={urlObj.shortUrl} className="url-box">
           
           <p className="label">Shortened URL</p>
 
@@ -19,7 +19,7 @@ function UrlList({ urls }) {
               {urlObj.shortUrl}
             </a>
 
-            <button onClick={() => navigator.clipboard.writeText(urlObj.short_url)}>
+            <button onClick={() => navigator.clipboard.writeText(urlObj.shortUrl)}>
               Copy
             </button>
           </div>
