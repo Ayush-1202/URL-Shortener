@@ -20,7 +20,7 @@ app.use(express.json());
 app.use("/api/create", shorturlRoutes);
 
 // Safer redirect route
-app.get("/r/:id", redirectUrl);
+app.get("/:id", redirectUrl);
 
 // Global error handler
 app.use((err, req, res, next) => {
