@@ -25,7 +25,7 @@ function UrlForm({ onAddUrl }) {
       });
 
       const shortUrlObj = {
-        short_url: res.data.shortUrl,
+        short_url: res.data.short_url,
         full_url: res.data.full_url
       };
 
