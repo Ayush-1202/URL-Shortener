@@ -27,7 +27,8 @@
 - MongoDB (Mongoose)  
 
 ### Deployment
-- Vercel  
+- Vercel (Frontend)
+- Render (Backend)
 
 ---
 
